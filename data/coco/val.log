@@ -1,0 +1,8 @@
+I1031 14:14:16.508008 34018 convert_annoset.cpp:122] A total of 5000 images.
+I1031 14:14:16.508544 34018 db_lmdb.cpp:35] Opened lmdb /data1/jeffhzhang/data/coco/lmdb/coco_val_lmdb
+I1031 14:14:26.209003 34018 convert_annoset.cpp:195] Processed 1000 files.
+I1031 14:14:35.982362 34018 convert_annoset.cpp:195] Processed 2000 files.
+I1031 14:14:45.497175 34018 convert_annoset.cpp:195] Processed 3000 files.
+I1031 14:14:55.016989 34018 convert_annoset.cpp:195] Processed 4000 files.
+I1031 14:15:04.595968 34018 convert_annoset.cpp:195] Processed 5000 files.
+/data/home/jeffhzhang/caffe-ssd/build/tools/convert_annoset --anno_type=detection --label_type=json --label_map_file=/data/home/jeffhzhang/caffe-ssd/data/coco/../../data/coco/labelmap_coco.prototxt --check_label=True --min_dim=0 --max_dim=0 --resize_height=0 --resize_width=0 --backend=lmdb --shuffle=False --check_size=False --encode_type=jpg --encoded=True --gray=False /data1/jeffhzhang/data/coco/ /data/home/jeffhzhang/caffe-ssd/data/coco/../../data/coco/val.txt /data1/jeffhzhang/data/coco/lmdb/coco_val_lmdb
